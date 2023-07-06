@@ -1,5 +1,6 @@
 import random
 
+
 class RandomNames:
     def generate_name(self):
         names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve']
