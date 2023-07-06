@@ -10,4 +10,5 @@ def test_generate_name():
 def test_generate_surname():
     random_names = RandomNames()
     surname = random_names.generate_surname()
-    assert surname in ['Smith', 'Johnson', 'Brown', 'Taylor', 'Miller', 'Bryan']
+    assert surname in ['Smith', 'Johnson', 'Brown',
+                       'Taylor', 'Miller', 'Bryan']
