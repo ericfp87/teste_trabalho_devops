@@ -4,7 +4,7 @@ from src.criador_nomes import RandomNames
 def test_generate_name():
     random_names = RandomNames()
     name = random_names.generate_name()
-    assert name in ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Daniel']
+    assert name in ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Eric']
 
 
 def test_generate_surname():

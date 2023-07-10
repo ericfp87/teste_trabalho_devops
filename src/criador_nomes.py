@@ -3,7 +3,7 @@ import random
 
 class RandomNames:
     def generate_name(self):
-        names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Daniel']
+        names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Eric']
         return random.choice(names)
 
     def generate_surname(self):
