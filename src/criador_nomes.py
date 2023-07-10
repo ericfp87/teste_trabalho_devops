@@ -3,9 +3,9 @@ import random
 
 class RandomNames:
     def generate_name(self):
-        names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Daniel', 'Eric']
+        names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Daniel']
         return random.choice(names)
 
     def generate_surname(self):
-        surnames = ['Smith', 'Johnson', 'Brown', 'Taylor', 'Miller', 'Bryan', 'Ferreira']
+        surnames = ['Smith', 'Johnson', 'Brown', 'Taylor', 'Miller', 'Bryan']
         return random.choice(surnames)
